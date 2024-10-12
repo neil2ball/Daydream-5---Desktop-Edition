@@ -41,7 +41,7 @@ namespace Daydream_5___Desktop_Edition
 								   The numbers 1-36 are divided into four groups based on two criteria: whether the number is low or high and whether it is even or odd.
 								   Within these groups, the numbers are randomly shuffled. They are then divided into seven equal groupings of 5 with one remainder.
 								   Each 5 number pick is stored, then the each group is rotated. The first group rotates the top number to the bottom while moving the rest up.
-								   The second group does that twice. The third group does three times and the fourth group four. After nine wheels, the fourth group becomes the first,
+								   The second group does that twice. The third group does three times and the fourth group five. After nine wheels, the fourth group becomes the first,
 								   the first becomes the second and so on. This goes on until each group has been in each role, resulting in 252 unique picks that are partially wheeled
 								   in a stratified way. I love the symmetry of Florida's Fantasy 5 game for this reason.</p><br>
 		                    </div>

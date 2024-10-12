@@ -267,7 +267,13 @@ namespace Daydream_5___Desktop_Edition
                       {
                         colors[c] = ShiftBytes(colors[c]);
                       }
-                       counter++;                        
+                       counter++;
+
+                       //This attempts to lower the number of 4 out of 5 pairs in the list by wheeling 1,2,3, and 5 times (rather than 4) respectively.
+                       if (counter == colors.Count - 1)
+                        {
+                            counter++;
+                        }
                     }
 
                 }
