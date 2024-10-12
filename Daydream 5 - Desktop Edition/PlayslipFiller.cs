@@ -78,43 +78,43 @@ namespace Daydream_5___Desktop_Edition
             BitMatrix bitmapMatrix = new BitMatrix(816, 312);
             if (dayAdvance == 30)
             {
-                bitmapMatrix = blackSquare(bitmapMatrix, 495, 9);
+                bitmapMatrix = blackSquare(bitmapMatrix, 491, 10);
             }
             else if (dayAdvance == 28)
             {
-                bitmapMatrix = blackSquare(bitmapMatrix, 478, 9);
+                bitmapMatrix = blackSquare(bitmapMatrix, 475, 10);
             }
             else if (dayAdvance == 21)
             {
-                bitmapMatrix = blackSquare(bitmapMatrix, 461, 9);
+                bitmapMatrix = blackSquare(bitmapMatrix, 457, 10);
             }
             else if (dayAdvance == 14)
             {
-                bitmapMatrix = blackSquare(bitmapMatrix, 444, 9);
+                bitmapMatrix = blackSquare(bitmapMatrix, 440, 10);
             }
             else if (dayAdvance == 10)
             {
-                bitmapMatrix = blackSquare(bitmapMatrix, 427, 9);
+                bitmapMatrix = blackSquare(bitmapMatrix, 424, 10);
             }
             else if (dayAdvance == 7)
             {
-                bitmapMatrix = blackSquare(bitmapMatrix, 410, 9);
+                bitmapMatrix = blackSquare(bitmapMatrix, 407, 10);
             }
             else if (dayAdvance == 5)
             {
-                bitmapMatrix = blackSquare(bitmapMatrix, 393, 9);
+                bitmapMatrix = blackSquare(bitmapMatrix, 390, 10);
             }
             else if (dayAdvance == 4)
             {
-                bitmapMatrix = blackSquare(bitmapMatrix, 375, 9);
+                bitmapMatrix = blackSquare(bitmapMatrix, 373, 10);
             }
             else if (dayAdvance == 3)
             {
-                bitmapMatrix = blackSquare(bitmapMatrix, 358, 9);
+                bitmapMatrix = blackSquare(bitmapMatrix, 357, 10);
             }
             else if (dayAdvance == 2)
             {
-                bitmapMatrix = blackSquare(bitmapMatrix, 341, 9);
+                bitmapMatrix = blackSquare(bitmapMatrix, 339, 10);
             }
 
             if (middayRadBtn)
@@ -364,43 +364,43 @@ namespace Daydream_5___Desktop_Edition
                         switch (x)
                         {
                             case 0:
-                                xIndex = 220;
+                                xIndex = 219;
                                 yIndex = 130;
                                 break;
                             case 1:
-                                xIndex = 341;
+                                xIndex = 339;
                                 yIndex = 130;
                                 break;
                             case 2:
-                                xIndex = 461;
+                                xIndex = 459;
                                 yIndex = 130;
                                 break;
                             case 3:
-                                xIndex = 580;
+                                xIndex = 577;
                                 yIndex = 130;
                                 break;
                             case 4:
-                                xIndex = 700;
+                                xIndex = 697;
                                 yIndex = 130;
                                 break;
                             case 5:
-                                xIndex = 220;
+                                xIndex = 219;
                                 yIndex = 268;
                                 break;
                             case 6:
-                                xIndex = 340;
+                                xIndex = 339;
                                 yIndex = 268;
                                 break;
                             case 7:
-                                xIndex = 461;
+                                xIndex = 459;
                                 yIndex = 268;
                                 break;
                             case 8:
-                                xIndex = 580;
+                                xIndex = 577;
                                 yIndex = 268;
                                 break;
                             case 9:
-                                xIndex = 701;
+                                xIndex = 697;
                                 yIndex = 268;
                                 break;
 

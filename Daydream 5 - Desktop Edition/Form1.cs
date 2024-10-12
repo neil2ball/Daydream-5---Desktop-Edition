@@ -17,9 +17,17 @@ namespace Daydream_5___Desktop_Edition
         {
             GC.Collect(); //Just for kicks.
 
+            getPicksButton.Enabled = false;
+            selectFolderButton.Enabled = false;
+            printPicksButton.Enabled = false;
+
             sorter = new Sorter(sortedCheckBox.Checked, Decimal.ToByte(pickLimit.Value));
 
             FillRichTextBoxes();
+
+            getPicksButton.Enabled = true;
+            selectFolderButton.Enabled = true;
+            printPicksButton.Enabled = true;
         }
 
         private void selectFolderButton_Click(Object sender, EventArgs e)
@@ -37,6 +45,9 @@ namespace Daydream_5___Desktop_Edition
 
         private void printPicksButton_Click(Object sender, EventArgs e)
         {
+            getPicksButton.Enabled = false;
+            selectFolderButton.Enabled = false;
+            printPicksButton.Enabled = false;
 
             bool[] drawTimeEz = { middayDrawTimeButton.Checked, eveningDrawTimeButton.Checked, bothDrawTimeButton.Checked, ezMatchCheckBox.Checked };
 
@@ -66,7 +77,9 @@ namespace Daydream_5___Desktop_Edition
                 Process.Start("explorer", playslipPrint.pathRoot);
             }
 
-
+            getPicksButton.Enabled = true;
+            selectFolderButton.Enabled = true;
+            printPicksButton.Enabled = true;
 
             GC.Collect(); //This prevents extra playslipfiller objects from filling memory.
         }

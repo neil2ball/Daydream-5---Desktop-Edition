@@ -99,14 +99,14 @@
             // getHelpToolStripMenuItem
             // 
             getHelpToolStripMenuItem.Name = "getHelpToolStripMenuItem";
-            getHelpToolStripMenuItem.Size = new Size(180, 22);
+            getHelpToolStripMenuItem.Size = new Size(118, 22);
             getHelpToolStripMenuItem.Text = "Get help";
             getHelpToolStripMenuItem.Click += getHelpToolStripMenuItem_Click;
             // 
             // aboutToolStripMenuItem
             // 
             aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            aboutToolStripMenuItem.Size = new Size(180, 22);
+            aboutToolStripMenuItem.Size = new Size(118, 22);
             aboutToolStripMenuItem.Text = "About";
             aboutToolStripMenuItem.Click += aboutToolStripMenuItem_Click;
             // 
